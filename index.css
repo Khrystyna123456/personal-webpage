@@ -13,3 +13,10 @@ img {
 div {
     clear: left;
 }
+div.map {
+    border: 3px solid blue;
+}
+
+.clearfix {
+    overflow: auto;
+}
