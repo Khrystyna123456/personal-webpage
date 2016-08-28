@@ -1,9 +1,13 @@
 h2 {
-    color: orange;    
+    color: green; 
+    text-align: right;
 }
 
 body {
-    background-image: url("back2.jpg");
+    background-image: url="back2.jpg" width="100%";
+}
+p{
+    font-family: Merienda;
 }
 img {
     float: left;
