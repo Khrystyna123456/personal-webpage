@@ -22,3 +22,7 @@ div{
 div.clearfix {
   overflow: auto;
 }
+
+div.container {
+    float: right;
+}
