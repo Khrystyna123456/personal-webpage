@@ -5,3 +5,11 @@ h2 {
 body {
     background-image: url("back2.jpg");
 }
+img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+h3 {
+    clear: left;
+}
