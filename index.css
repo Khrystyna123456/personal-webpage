@@ -7,13 +7,16 @@ h2 {
     background: url("header.jpg");
     background-position: top;
     background-size: cover;
-    
-    
+    text-align: right;
 }
+nav ul {
+  list-style: none;
 
 #main a {
     display: inline-block;
-    float: left;
+    
+    
+    
     
     
 p {
