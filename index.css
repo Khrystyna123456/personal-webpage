@@ -3,24 +3,31 @@ h2 {
     text-align: center;
 }
 
-body {
-    background-image: url("background1.jpg");
+.header {
+    background: url("header.jpg");
+    background-position: top;
+    background-size: cover;
+    
+    
 }
+
+#main a {
+    display: inline-block;
+    float: left;
+    
+    
 p {
-    font-family: Satisfy, Indie Flower;
-}
+    font-family: 
 
 img {
     float: left;
     margin: -5px 18px 10px 10px;
 }
 
-div{
+div {
     
     clear: left;
-}
-div.clearfix {
-  overflow: auto;
+
 }
 
 div.container {
