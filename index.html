@@ -1,42 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
         <title>My Personal Webpage</title>
+        
         <link rel="stylesheet"  type="text/css" href="index.css" />
   
     </head>
     <body>
+    
     <header class="header">
     <h3>Khrystyna Stegnii</h3>
     
-    <h2>My Personal Page</h2>
+    <h2>Junior Front-End Developer</h2>
     <nav>
-    <ul id="main">
+    <ul class="menu">
     <li><a href="/">HOME</a></li>
     <li><a href="#aboutme">ABOUT ME</a></li>
     <li><a href="#contacts">CONTACT DETAILS</a></li>
     </ul>
     </nav>
     
-    <img width="200" height="300" src="myphoto.jpg" alt="me">
-    
     </header>
     
+    <div class="mainsection">
+    
+    
+    <div><img class="zoom" width="200" height="300" src="myphoto.jpg" alt="me">
+    </div>
+    
+    <div class="gallary">
+  <p style = 'text-align: center;'>
+    <img id = 'bigimg' src = 'myphoto.jpg' height = '200' alt = 'main photo' />
+  </p>
+  <table>
+    <tr>
+      <td>
+        <img src = 'myfriendandme.jpg' width = '100' onclick = 'setBigImage(this)' alt = 'photo1' />
+      </td>
+      <td>
+        <img src = 'aboutme.jpg' width = '100' onclick = 'setBigImage(this)' alt = 'photo2' />
+      </td>
+      <td>
+        <img src = 'me.jpg' width = '100' onclick = 'setBigImage(this)' alt = 'photo3' />
+      
+      </td>
+    </tr>
+  </table>
+</div>
+    
+    
+   <article>
    
-     
-    <p id="aboutme">Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.This life is what you make it. No matter what, you're going to mess up sometimes, it's a universal truth. But the good part is you get to decide how you're going to mess it up. Girls will be your friends - they'll act like it anyway. But just remember, some come, some go. The ones that stay with you through everything - they're your true best friends. Don't let go of them. Also remember, sisters make the best friends in the world. As for lovers, well, they'll come and go too. And baby, I hate to say it, most of them - actually pretty much all of them are going to break your heart, but you can't give up because if you give up, you'll never find your soulmate. You'll never find that half who makes you whole and that goes for everything. Just because you fail once, doesn't mean you're gonna fail at everything. Keep trying, hold on, and always, always, always believe in yourself, because if you don't, then who will, sweetie? So keep your head high, keep your chin up, and most importantly, keep smiling, because life's a beautiful thing and there's so much to smile about.</p>
-
-    
-    
-    <div id="contacts">
-    <h3>Find Me Here</h3>
-    
-    <figure>
-    <img width="320" height="215" src="maplviv.jpg" alt="maplviv">
-        <figcaption>Map Lviv</figcaption>
-        </figure>
-        
-        </div>
+   <h4 id="aboutme">ABOUT ME</h4>
+      <p> Khrystyna Stegnii<br>
+      Lviv<br>
+Tel. +380671253406<br>
+e-mail Kristina.stegniy@yandex.ru<br>
+date of birth 25/10/1990<br>
+<q>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.</q> <em> - Steve Jobs.</em><br> <b>Education</b><br>
+1997-2007 – secondary school<br>
+2007 – 2012 – Lviv Ivan Franko National University, faculty of foreign languages, English philology department<br>
+November 2014  – February 2015 – Lviv IT School – Software Testing Process<br>
+<b>Experience</b><br>
+<b>Skills</b><br>
+<b>Languages</b>
+</p>
+</article>
+ </div>
+ <div id="contacts">
+    <div class="container">
         
         <div class"form">
         <h4>Get In Touch With Me</h4>
@@ -61,6 +94,23 @@
 				</a>
 
 			</div>
+			
+		</div>
+		
+		 <div id="footer">
+        <div class="container">
+            <div class="row ">
+                &copy; Khrystyna Stegnii				
+            </div>
+        </div>
+    </div> 
+        
+    
+    
+    
+    <script   src="//code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="index.js"></script>
 
     </body>
 </html>
