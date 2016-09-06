@@ -1,12 +1,13 @@
 
 .header {
-    background-image: url('header2.jpg');
+    background-image: url('banner.jpg');
     background-position: top;
     background-size: cover;
     text-align: center;
     padding: 100px 0px;
     display: block;
 }
+
 .header h2, h3 {
     
     font-family: 'Montserrat', sans-serif;
@@ -42,11 +43,12 @@
 div.gallery {
     clear: left;
 }
-.mainsection {
+.body {
     background-image: url('mainsection.jpg');
     background-size: cover;
-     
+    
 }
+
 
 article {
     text-align: center;
@@ -77,6 +79,120 @@ article {
 }
       
 
+#featured
+	{
+		position: relative;
+		background: #f2f2f2;
+	}
+	
+	#featured h2
+	{
+		display: block;
+		margin-bottom: 2em;
+		font-size: 1.4em;
+	}
+	
+	.image
+		{
+			display: inline-block;
+		}
+		
+		.image img
+			{
+				display: block;
+				width: 80%;
+			}
+	
+	
+			
+			.image.full
+			{
+				display: block;
+				width: 80%;
+				margin: 0 0 2em 0;
+			}
+			
+			
+			
+			.container {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
+	/* Modifiers */
+	
+		.container.small {
+			width: 900px;
+		}
 
-    
+		.container.big {
+			width: 100%;
+			max-width: 1500px;
+			min-width: 1200px;
+		}
+
+/* Grid */
+
+	/* Cells */
+
+		.\31 2u { width: 100% }
+		.\31 1u { width: 91.6666666667% }
+		.\31 0u { width: 83.3333333333% }
+		.\39 u { width: 75% }
+		.\38 u { width: 66.6666666667% }
+		.\37 u { width: 58.3333333333% }
+		.\36 u { width: 50% }
+		.\35 u { width: 41.6666666667% }
+		.\34 u { width: 33.3333333333% }
+		.\33 u { width: 25% }
+		.\32 u { width: 16.6666666667% }
+		.\31 u { width: 8.3333333333% }
+		.\-11u { margin-left: 91.6666666667% }
+		.\-10u { margin-left: 83.3333333333% }
+		.\-9u { margin-left: 75% }
+		.\-8u { margin-left: 66.6666666667% }
+		.\-7u { margin-left: 58.3333333333% }
+		.\-6u { margin-left: 50% }
+		.\-5u { margin-left: 41.6666666667% }
+		.\-4u { margin-left: 33.3333333333% }
+		.\-3u { margin-left: 25% }
+		.\-2u { margin-left: 16.6666666667% }
+		.\-1u { margin-left: 8.3333333333% }
+
+		.row > * {
+			padding: 50px 0 0 50px;
+			float: left;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.row + .row > * {
+			padding-top: 50px;
+		}
+
+		.row {
+			margin-left: -50px;
+		}   
+		
+		
+		.thumbnails img {
+		height: 80px;
+		border: 4px solid #555;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+
+	.thumbnails img:hover {
+		border: 4px solid #00ccff;
+		cursor:pointer;
+	}
+
+	.preview img {
+		border: 4px solid #444;
+		padding: 1px;
+		width: 300px;
+	}

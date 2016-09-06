@@ -37,8 +37,11 @@
     }, interval
   );*/
   
-  function setBigImage(foto) {
+  /*function setBigImage(foto) {
     document.getElementById("bigimg").src = foto.src;
   }
  
-   $(".zoom").loupe();
+   $(".zoom").loupe();*/
+   
+  Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');

@@ -23,34 +23,32 @@
     
     </header>
     
+    <section class="body">
+    
     <div class="mainsection">
     
     
-    <div><img class="zoom" width="200" height="300" src="myphoto.jpg" alt="me">
-    </div>
     
-    <div class="gallary">
-  <p style = 'text-align: center;'>
-    <img id = 'bigimg' src = 'myphoto.jpg' height = '200' alt = 'main photo' />
-  </p>
-  <table>
-    <tr>
-      <td>
-        <img src = 'myfriendandme.jpg' width = '100' onclick = 'setBigImage(this)' alt = 'photo1' />
-      </td>
-      <td>
-        <img src = 'aboutme.jpg' width = '100' onclick = 'setBigImage(this)' alt = 'photo2' />
-      </td>
-      <td>
-        <img src = 'me.jpg' width = '100' onclick = 'setBigImage(this)' alt = 'photo3' />
-      
-      </td>
-    </tr>
-  </table>
+    
+    
+    
+ <div class="gallery" align="center">
+<h3>My Gallery</h3>
+<div class="thumbnails">
+	<img onmouseover="preview.src=ing1.src" name="img1" src="myphoto.jpg" alt="" />
+	<img onmouseover="preview.src=img2.src" name="img2" src="me.jpg" alt="" />
+	<img onmouseover="preview.src=img3.src" name="img3" src="aboutme.jpg" alt="" />
+	<img onmouseover="preview.src=img4.src" name="img4" src="aboutme.jpg" alt="" />
+	<img onmouseover="preview.src=img5.src" name="img5" src="header.jpg" alt="" />
 </div>
-    
-    
-   <article>
+<div class="preview" align="center">
+	<img name="preview" src="myphoto.jpg" alt=""/>
+</div>
+</div>
+
+
+
+<article>
    
    <h4 id="aboutme">ABOUT ME</h4>
       <p> Khrystyna Stegnii<br>
@@ -68,6 +66,43 @@ November 2014  – February 2015 – Lviv IT School – Software Testing Process
 </p>
 </article>
  </div>
+ 
+ 
+		
+		
+		
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="4u">
+						<h2>How I usually do that</h2>
+						<a href="#" class="image full"><img src="header4.jpg" alt="" /></a>
+						<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+					
+					</div>
+					<div class="4u">
+						<h2>The process itself</h2>
+						<a href="#" class="image full"><img src="header2.jpg" alt="" /></a>
+						<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+						
+					</div>
+					<div class="4u">
+						<h2>Result</h2>
+						<a href="#" class="image full"><img src="header3.jpg" alt="" /></a>
+						<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque viverra vulputate enim.</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
  <div id="contacts">
     <div class="container">
         
@@ -96,6 +131,9 @@ November 2014  – February 2015 – Lviv IT School – Software Testing Process
 			</div>
 			
 		</div>
+		</section>
+		
+
 		
 		 <div id="footer">
         <div class="container">
@@ -109,8 +147,9 @@ November 2014  – February 2015 – Lviv IT School – Software Testing Process
     
     
     <script   src="//code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
+    <script src="galleria/galleria-1.4.min.js"></script>
 
     </body>
 </html>
